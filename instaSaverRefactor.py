@@ -27,7 +27,7 @@ def parse_photo():
         driver.find_element_by_class_name("btn-download").click()
         print('downloading photo')
         time.sleep(2)
-        photo_path = glob.glob('/Users/aleksandramirnova/Downloads/*.jpg')
+        photo_path = glob.glob('/Users/Downloads/*.jpg')
         downloaded_photo = photo_path[-1]
         print(downloaded_photo)
         # photo_to_send = open(downloaded_photo, "rb")
