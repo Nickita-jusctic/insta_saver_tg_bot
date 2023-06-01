@@ -30,7 +30,7 @@ driver = webdriver.Chrome(
     options=options
 )
 # элементы бота
-api = '5999499263:AAEwA-THiPgM0sBAX6GJaUR18oLZHlmQbMY'
+api = ''
 bot = telebot.TeleBot(api)
 
 @bot.message_handler(commands=['start'])
